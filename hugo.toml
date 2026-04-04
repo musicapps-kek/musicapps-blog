@@ -12,6 +12,12 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
 
+[params.profileMode]
+  enabled = false
+
+[params.assets]
+  favicon = "/images/avatar.svg"  
+
 [params.homeInfoParams]
   Title = "MusicApps Dev Blog"
   Content = "An engineer's diary on building music apps for Android and iOS — with heavy AI assistance, a tight budget, and a healthy dose of scepticism."
