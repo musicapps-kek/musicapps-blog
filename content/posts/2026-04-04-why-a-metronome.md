@@ -50,4 +50,4 @@ If you're reading this later and the blog has more than five posts, it means I s
 
 ---
 
-_This is post #1 of an ongoing development diary. The blog is currently private and intended as project documentation._
+_This is post #1 of an ongoing development diary. The blog is currently meant to be private and intended as project documentation._
