@@ -1,0 +1,38 @@
+baseURL = "https://blog.musicapps.eu/"
+languageCode = "en-us"
+title = "MusicApps Dev Blog"
+theme = "PaperMod"
+
+[params]
+  author = "Karl-Ernst Kiel"
+  description = "Building music apps with AI — an engineer's development diary"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
+[params.homeInfoParams]
+  Title = "MusicApps Dev Blog"
+  Content = "An engineer's diary on building music apps for Android and iOS — with heavy AI assistance, a tight budget, and a healthy dose of scepticism."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/musicapps-kek"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:karl@musicapps.eu"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
