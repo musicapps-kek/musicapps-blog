@@ -13,3 +13,7 @@ This blog documents the entire process: technical decisions, AI experiments,
 failures, and whatever comes out the other end.
 
 Contact: karl@musicapps.eu
+
+### Related projects
+
+- [MusicApps Knowledge Base](https://kb.musicapps.eu) — technical reference content for myself and other developers
