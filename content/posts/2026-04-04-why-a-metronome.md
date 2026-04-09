@@ -3,7 +3,7 @@ title: "Day 1: Why I'm building a metronome app (and why it probably won't make 
 date: 2026-04-04
 draft: false
 tags: ["planning", "metronome", "AI"]
-summary: "Starting a solo app project with AI assistance, a 40 EUR budget, and realistic expectations."
+summary: "Starting a solo app project with AI assistance, a small budget, and realistic expectations."
 ---
 
 I'm starting a side project: building music apps for Android and iOS. The first one will be a metronome. This blog will document the entire process — the decisions, the mistakes, and what AI tools actually contribute versus what they promise.
