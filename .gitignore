@@ -1,0 +1,6 @@
+# Hugo build output — never commit these
+public/
+resources/_gen/
+
+# Hugo lock file created by hugo server
+.hugo_build.lock

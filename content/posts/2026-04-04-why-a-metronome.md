@@ -8,6 +8,8 @@ summary: "Starting a solo app project with AI assistance, a small budget, and re
 
 I'm starting a side project: building music apps for Android and iOS. The first one will be a metronome. This blog will document the entire process — the decisions, the mistakes, and what AI tools actually contribute versus what they promise.
 
+I'll be working with AI assistants throughout — primarily Claude for planning and architecture, and Gemini inside Android Studio for implementation. I'll try to be specific in each post about what I decided, what the AI suggested, and what the AI built.
+
 ## Why a metronome?
 
 A few weeks ago, I watched a professional drummer at a gig. He had a metronome app running on his phone, taped to his kit. No fancy time signatures, no accent patterns, no visual conductor — just a steady click and a flash. One beat, one sound, one light.
@@ -50,4 +52,4 @@ If you're reading this later and the blog has more than five posts, it means I s
 
 ---
 
-_This is post #1 of an ongoing development diary. The blog is currently meant to be private and intended as project documentation._
+_This blog documents my attempt to build and ship a music app as a solo developer, with AI assistance. The AI does a lot of the work. I try to be specific about what._

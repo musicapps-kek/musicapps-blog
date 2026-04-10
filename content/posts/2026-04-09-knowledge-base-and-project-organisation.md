@@ -35,14 +35,14 @@ One small hurdle: Python's `pip` isn't directly usable on macOS anymore due to t
 
 ## First KB articles
 
-With the infrastructure in place, I told the AI agent to generate four articles to seed the knowledge base. All are aimed at someone who knows Android development but is new to KMP and iOS:
+With the infrastructure in place, I asked Claude to generate four articles to seed the knowledge base. I described the target reader — someone who knows Android development but is new to KMP and iOS — and Claude wrote them. I reviewed and approved each one.
 
 - **What is Kotlin Multiplatform?** — the core concept, what can be shared, what can't, and how it maps to the SessionClick project
 - **Gradle in a KMP project** — what Gradle actually does in a multiplatform setup, the module structure, version catalogs, and useful tasks
 - **How Kotlin and iOS work together** — the Kotlin/Native compiler, how shared code becomes a framework that Swift imports, type mapping, and the coroutines/async bridging problem
 - **Android vs iOS — concepts and terminology** — a side-by-side comparison of screens, navigation, state, ViewModels, lifecycle, storage, and in-app purchases for someone coming from Android
 
-The goal is to have a solid reference for myself as I work through the project, and to create content that could be useful to other developers in the same situation.
+The goal is to have a solid reference for myself as I work through the project, and to create content that could be useful to other developers in the same situation. I didn't write the articles — Claude did — but I chose the topics, defined the audience, and fact-checked the output.
 
 ## What's next
 
@@ -52,4 +52,4 @@ After that: audio engine prototype. Everything else is just scaffolding.
 
 ---
 
-_This blog documents my attempt to build and ship a music app as a solo developer, with AI assistance, on a small budget. Posts are written as an honest engineering diary, not as marketing material._
+_This blog documents my attempt to build and ship a music app as a solo developer, with AI assistance. The AI does a lot of the work. I try to be specific about what._
