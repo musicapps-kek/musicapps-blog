@@ -2,6 +2,7 @@ baseURL = "https://blog.musicapps.eu/"
 languageCode = "en-us"
 title = "MusicApps Dev Blog"
 theme = "PaperMod"
+enableEmoji = true
 
 [params]
   author = "Karl-Ernst Kiel"

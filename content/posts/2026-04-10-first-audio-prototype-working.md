@@ -2,11 +2,20 @@
 title: "Day 4: First audio prototype running on a real device"
 date: 2026-04-10
 draft: false
-tags: ["android", "audio", "oboe", "kotlin-multiplatform", "jni", "prototype", "ai-assisted"]
+tags:
+  [
+    "android",
+    "audio",
+    "oboe",
+    "kotlin-multiplatform",
+    "jni",
+    "prototype",
+    "ai-assisted",
+  ]
 summary: "The metronome clicks on a real Android device. Here's how Claude handled the architecture, Gemini wrote the code, and I directed traffic between them."
 ---
 
-Today was the first day of actual app code. By the end of the session, SessionClick was clicking on a real Android device. But before I describe what was built, I want to explain *how* it was built — because the workflow was as interesting as the result.
+Today was the first day of actual app code. By the end of the session, SessionClick was clicking on a real Android device. But before I describe what was built, I want to explain _how_ it was built — because the workflow was as interesting as the result.
 
 ## How this session actually worked
 
@@ -22,9 +31,11 @@ The roles broke down roughly like this:
 
 **I** directed traffic. I made the decisions that actually mattered — Oboe from the start, consistency over latency, NDK already installed — and I understood what was being built well enough to know when something was wrong. I copy-pasted prompts from Claude to Gemini, and results back from Gemini to Claude for review. I ran the build. I tested it on a real device. I rotated the phone and noticed the metronome stopped.
 
-That last point is important: neither AI could test on a real device. That part was mine.
+That last point is important: neither AI could test on a real device. That part was mine. Wow, now I feel great: Turning a phone and doing copy&paste. That's my job. I really am a professional app developer now 💪🏼😂.
 
-The honest summary: I wrote zero lines of code today. I also made every decision that shaped the code.
+The honest summary: I wrote zero lines of code today. But I made every decision that shaped the code and the project. At least that gives me back a little amount of self respect.
+
+_(As you might imagine: Only the last sentences of the last two paragraphs are my own 😉.)_
 
 ## Choosing the audio engine
 
@@ -40,7 +51,7 @@ My input: I want Oboe from the start, I have NDK installed, min SDK is 28, and t
 
 ## The callback model
 
-Oboe offers two ways to get audio data to the speaker: you can *push* data by writing to a buffer in a loop, or Oboe can *pull* data by calling your code when it needs more. The pull model — called the DataCallback — is the right choice for a metronome.
+Oboe offers two ways to get audio data to the speaker: you can _push_ data by writing to a buffer in a loop, or Oboe can _pull_ data by calling your code when it needs more. The pull model — called the DataCallback — is the right choice for a metronome.
 
 In the callback model, Oboe's audio thread calls `onAudioReady()` at regular intervals from a high-priority thread. That thread is managed by the audio subsystem, not the OS general scheduler. Notifications, background processes, and CPU throttling don't touch it.
 
