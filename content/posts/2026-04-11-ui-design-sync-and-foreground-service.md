@@ -103,7 +103,7 @@ No timer math. No `startNanos`. No drift possible — the flash fires because th
 
 I tested it: started, stopped, started again, rotated the device. Audio and visual stayed in sync throughout. That's the first time that's been true in this session.
 
-One remaining bug: rotating the device reset the BPM display to 120 while the audio kept playing at whatever BPM I'd set. `bpm` was still in `remember`, which doesn't survive rotation. Moving it to the ViewModel caused a JVM signature clash (`var bpm` generates a setter named `setBpm()`, which clashed with the explicit `fun setBpm()`). Claude fixed this directly — the standard pattern is a private `_bpm` backing field with a public read-only `val bpm`.
+One remaining bug: rotating the device reset the BPM display to 120 while the audio kept playing at whatever BPM I'd set. `bpm` was still in `remember`, which doesn't survive rotation. Moving it to the ViewModel caused a JVM signature clash. Claude fixed this directly.
 
 ## What I actually did today
 
@@ -112,6 +112,10 @@ Decided what the app should look like and how it should behave. Tested on a real
 What Claude did: all the architecture reasoning, the design questions, catching the service leak, diagnosing the two-clock problem, writing every Gemini prompt, reviewing every generated file, and fixing the JVM clash directly.
 
 What Gemini did: implemented five files from Claude's prompts — the Service, the ViewModel, the manifest, the C++ timestamp addition, and the App.kt animation.
+
+---
+
+**Time spent today:** 4h 21min
 
 ---
 

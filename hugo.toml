@@ -44,6 +44,10 @@ enableEmoji = true
     name = "App Concept"
     url = "/sessionclick-concept/"
     weight = 3
+  [[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    weight = 4
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

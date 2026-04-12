@@ -52,4 +52,8 @@ If you're reading this later and the blog has more than five posts, it means I s
 
 ---
 
+**Time spent today:** not tracked
+
+---
+
 _This blog documents my attempt to build and ship a music app as a solo developer, with AI assistance. The AI does a lot of the work. I try to be specific about what._

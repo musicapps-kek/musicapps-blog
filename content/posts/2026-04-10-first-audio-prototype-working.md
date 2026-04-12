@@ -103,4 +103,8 @@ Phase 1 is done: the audio engine works on a real device with acceptable timing.
 
 ---
 
+**Time spent today:** 1h 51min
+
+---
+
 _This blog documents my attempt to build and ship a music app as a solo developer, with AI assistance. The AI does a lot of the work. I try to be specific about what._
