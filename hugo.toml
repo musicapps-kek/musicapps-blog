@@ -41,8 +41,8 @@ enableEmoji = true
     url = "/about/"
     weight = 2
   [[menu.main]]
-    name = "App Concept"
-    url = "/sessionclick-concept/"
+    name = "Concept"
+    url = "/concept/"
     weight = 3
   [[menu.main]]
     name = "Resources"
