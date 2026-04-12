@@ -1,7 +1,7 @@
 ---
 title: "SessionClick — First Prompt and Main Screen Concept"
 layout: "single"
-url: "/sessionclick-concept/"
+url: "/concept/"
 summary: "The original UI concept and feature specification for the SessionClick main screen, written before development began."
 ---
 
