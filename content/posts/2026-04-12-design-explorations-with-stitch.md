@@ -25,7 +25,7 @@ I also instructed the model to use a combined play/stop button and move it to th
 
 ## Second approach: Text prompt + Stitch
 
-I took the UI element description from my [concept document](/sessionclick-concept/) and fed it into Stitch with only a brief introduction but without a mockup. I chose the "Thinking with 3.1 Pro" model for this one.
+I took the UI element description from my [concept document](/concept/) and fed it into Stitch with only a brief introduction but without a mockup. I chose the "Thinking with 3.1 Pro" model for this one.
 
 The first result was "quite interesting," but not really what I had in mind:
 

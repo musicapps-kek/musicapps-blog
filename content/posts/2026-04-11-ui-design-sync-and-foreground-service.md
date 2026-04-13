@@ -19,7 +19,7 @@ A longer session today, and a more varied one. We covered UI design, Android ser
 
 ## Act 1: UI concept work
 
-Before writing any code, I wanted to think through the full app design — not just the main screen I'd already sketched, but all the flows that were marked "to be added" in the concept document. (The original mockup and feature spec are published separately as the [SessionClick App Concept](/sessionclick-concept/).)
+Before writing any code, I wanted to think through the full app design — not just the main screen I'd already sketched, but all the flows that were marked "to be added" in the concept document. (The original mockup and feature spec are published separately as the [SessionClick Concept](/concept/).)
 
 Claude read my mockup and the written concept, then asked a series of clarifying questions:
 

@@ -23,7 +23,7 @@ All activities like website(s) and email(s) should be handled via the domain “
 
 The whole project's intention is to create useful apps, gain experience with AI tools, and determine whether it is possible to earn money with this kind of app.
 
-I want to document all activities in a blog that should start as a personal blog in the first weeks and may become a public blog when the project is released. The blog's intention is to keep a record of my activities, including AI activities, and may also serve as documentation to showcase my skills to potential employers.
+I want to document all activities in a blog that should start as a personal blog in the first weeks and may become a public blog when the project is released. The blog's intention is to keep a record of my activities, including AI activities, and build and document skills in using AI tools for software development and marketing.
 
 ## What I think about the apps in general:
 
