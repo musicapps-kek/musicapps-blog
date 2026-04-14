@@ -20,7 +20,8 @@ Time tracked in Toggl starting from April 8, 2026.
 | 2026-04-11 | Main Screen Mockups and layout | 1h 04min |
 | 2026-04-11 | Co-coding the next Android step | 2h 00min |
 | 2026-04-12 | Design with Stitch, Time and Cost overview | 1h 30min |
-| **Total** | | **~11h 09min** |
+| 2026-04-13 | Building the main screen — controls, playlist, responsive layout | 1h 45min |
+| **Total** | | **~12h 54min** |
 
 _Note: Time before April 8 was not tracked in Toggl._
 
