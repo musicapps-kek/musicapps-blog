@@ -4,3 +4,8 @@ resources/_gen/
 
 # Hugo lock file created by hugo server
 .hugo_build.lock
+
+# apple files
+.DS_Store
+# Windows thumbnail cache files
+Thumbs.db
