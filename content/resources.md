@@ -8,19 +8,20 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 
 ## Time Invested
 
-| Date       | Session                                                          | Duration       |
-| ---------- | ---------------------------------------------------------------- | -------------- |
-| 2026-04-08 | Continue planning with Claude Code                               | 1h 15min       |
-| 2026-04-08 | Set up KMP project, tested build for Android and iOS             | 1h 00min       |
-| 2026-04-09 | Setup KB and describe infrastructure                             | 1h 12min       |
-| 2026-04-10 | Android App — first steps                                        | 1h 51min       |
-| 2026-04-11 | Refine app concept, UI mockups                                   | 1h 17min       |
-| 2026-04-11 | Main Screen Mockups and layout                                   | 1h 04min       |
-| 2026-04-11 | Co-coding the next Android step                                  | 2h 00min       |
-| 2026-04-12 | Design with Stitch, Time and Cost overview                       | 1h 30min       |
-| 2026-04-13 | Building the main screen — controls, playlist, responsive layout | 1h 45min       |
-| 2026-04-15 | KB articles, swipe and drag-and-drop playlist items              | 2h 30min       |
-| **Total**  |                                                                  | **~14h 25min** |
+| Date       | Session                                                          | Duration  |
+| ---------- | ---------------------------------------------------------------- | --------- |
+| 2026-04-08 | Continue planning with Claude Code                               | 1h 15min  |
+| 2026-04-08 | Set up KMP project, tested build for Android and iOS             | 1h 00min  |
+| 2026-04-09 | Setup KB and describe infrastructure                             | 1h 12min  |
+| 2026-04-10 | Android App — first steps                                        | 1h 51min  |
+| 2026-04-11 | Refine app concept, UI mockups                                   | 1h 17min  |
+| 2026-04-11 | Main Screen Mockups and layout                                   | 1h 04min  |
+| 2026-04-11 | Co-coding the next Android step                                  | 2h 00min  |
+| 2026-04-12 | Design with Stitch, Time and Cost overview                       | 1h 30min  |
+| 2026-04-13 | Building the main screen — controls, playlist, responsive layout | 1h 45min  |
+| 2026-04-15 | KB articles, swipe and drag-and-drop playlist items              | 2h 30min  |
+| 2026-04-16 | Editing, swiping, playlists, and a very satisfying number        | 2h 25min  |
+| **Total**  |                                                                  | 18h 09min |
 
 ## One-Time Costs
 
