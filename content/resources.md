@@ -21,6 +21,7 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-04-13 | Building the main screen — controls, playlist, responsive layout | 1h 45min  |
 | 2026-04-15 | KB articles, swipe and drag-and-drop playlist items              | 2h 30min  |
 | 2026-04-16 | Editing, swiping, playlists, and a very satisfying number        | 2h 25min  |
+| 2026-04-17 | Preparing for iOS by testing Android                             | 1h 30min  |
 | **Total**  |                                                                  | 18h 09min |
 
 ## One-Time Costs
