@@ -58,4 +58,8 @@ The bureaucratic overhead is real but manageable — one registration, one annua
 
 ---
 
+**Time spent today:** ~2h (research + registration)
+
+---
+
 _This blog documents my attempt to build and ship a music app as a solo developer, with AI assistance. The AI does a lot of the work. I try to be specific about what._

@@ -74,4 +74,8 @@ The app is functionally complete enough to test. The remaining Phase 2 item is m
 
 ---
 
+**Time spent today:** ~2h
+
+---
+
 _This blog documents my attempt to build and ship a music app as a solo developer, with AI assistance. The AI does a lot of the work. I try to be specific about what._
