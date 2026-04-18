@@ -63,13 +63,13 @@ _Budget ceiling: €40/month. Current monthly spend: €25.29 — within budget.
 
 ### AI Tools
 
-| Tool                                                                   | Purpose                                             | Cost                              |
-| ---------------------------------------------------------------------- | --------------------------------------------------- | --------------------------------- |
-| [Claude Code](https://claude.ai/code)                                  | Architecture, planning, code review, blog writing   | €21.42/month (see above)          |
-| [Gemini Code Assist](https://developers.google.com/gemini/code-assist) | In-IDE code generation inside Android Studio        | Free tier                         |
-| [Google Stitch](https://stitch.withgoogle.com)                         | UI design exploration and mockups                   | Free                              |
-| [Perplexity](https://www.perplexity.ai)                                | Web research (market analysis, legal/tax questions) | Pro subscription (only one month) |
-| [GitHub Copilot](https://github.com/features/copilot)                  | Code and text completion in VS Code                 | Free tier                         |
+| Tool                                                                   | Purpose                                                                                    | Cost                              |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |
+| [Claude Code](https://claude.ai/code)                                  | Architecture, planning, code review, blog writing (using Sonnet 4.6 medium for most tasks) | €21.42/month (see above)          |
+| [Gemini Code Assist](https://developers.google.com/gemini/code-assist) | In-IDE code generation inside Android Studio                                               | Free tier                         |
+| [Google Stitch](https://stitch.withgoogle.com)                         | UI design exploration and mockups                                                          | Free                              |
+| [Perplexity](https://www.perplexity.ai)                                | Web research (market analysis, legal/tax questions)                                        | Pro subscription (only one month) |
+| [GitHub Copilot](https://github.com/features/copilot)                  | Code and text completion in VS Code                                                        | Free tier                         |
 
 ### Notes & Project Management
 
