@@ -1,5 +1,5 @@
 ---
-title: "Day 13: Freemium gate, billing, and pre-beta cleanup"
+title: "Day 13: Freemium gate, billing, Play Store registration, and first internal build"
 date: 2026-04-19
 draft: false
 tags:
@@ -10,8 +10,11 @@ tags:
     "kotlin-multiplatform",
     "ai-assisted",
     "refactoring",
+    "google-play",
+    "app-icon",
+    "screenshots",
   ]
-summary: "The freemium gate and Google Play Billing integration landed today, completing Phase 2. Then a pre-beta cleanup pass: jitter readout removed, BPM range constant consolidated, open source licenses screen added, and a privacy policy written and published."
+summary: "The freemium gate and Google Play Billing integration landed today, completing Phase 2. Then a pre-beta cleanup pass, privacy policy, Google Play Developer account registration (surprisingly complex), demo playlists, screenshots, a first app icon, and the first internal build installed on a real device via the Play Store."
 ---
 
 Today finished Phase 2 and started clearing the pre-beta checklist.
@@ -61,9 +64,69 @@ Claude wrote the policy based on the actual `AndroidManifest.xml` permissions (`
 
 Claude also added a "Privacy Policy" entry to the app's overflow menu that opens the policy in the browser. One less thing to forget.
 
+## Google Play Developer account registration
+
+Registering for Google Play turned out to be more involved than expected — worth documenting in detail.
+
+The $25 one-time registration fee and identity verification went smoothly. The complication was the package name: `eu.musicapps.sessionclick` uses the reverse-domain convention, and Google now requires you to prove ownership of the underlying domain before accepting it.
+
+The normal path is to verify `musicapps.eu` in Google Search Console (done via a DNS TXT record), then register the package name. But the registration UI immediately showed an error: the feature for Play Store apps is not yet fully rolled out. Google's own message acknowledged they're working on it and will register Play Store app package names automatically "this month."
+
+That left the alternative path: prove ownership by uploading a signed APK. Google shows you a SHA-256 fingerprint and asks you to sign an APK with the corresponding private key and include a unique token file (`adi-registration.properties` in `assets/`). The fingerprint turned out to belong to the Android debug keystore — present on every development machine. After adding the token file, rebuilding, and signing with the debug key, the upload verified successfully. Google confirmed ownership within minutes.
+
+The debug key was only needed for this verification step. All actual release builds use the proper keystore created for the project.
+
+After verification, the app was created in Play Console without issues.
+
+## Demo playlists
+
+Before taking screenshots, two demo playlists were added to `SessionSeed.kt` to replace the old placeholder data. Claude wrote the Gemini prompt; Gemini implemented it.
+
+**Jazz Standards Gig** — six jazz standards with BPM values, three songs with performance notes as subtitles ("Keep it floating, don't rush the bridge", "Tender, leave space after the intro", "Start Latin, switch to swing on solos"), and two break entries ("Short Break", "Break — ~10 min").
+
+**Classical Tempi** — seven entries from Largo to Presto, each with its tempo range in the subtitle ("Very slow, broad (40–60 BPM)") and the canonical BPM in the center. Useful both as a reference and as a demonstration of the subtitle field.
+
+Both playlists replaced all previous seed data entirely.
+
+## Screenshots
+
+Nine screenshots were taken on the Android emulator (Pixel profile) in Android Studio, covering dark theme, light theme, landscape/tablet layout, the playlist switcher, the song library, the overflow menu, and the Classical Tempi playlist. One duplicate landscape shot was removed, leaving eight.
+
+Claude renamed the files descriptively (`01-jazz-playlist-dark-stopped.png` through `08-classical-tempi-playing.png`) and wrote a `captions.md` with a headline caption and a description for each screenshot — ready for use in the Play Store listing and marketing.
+
+## App icon
+
+Getting the app icon turned out to be the most frustrating part of the day. Three tools tried, none worked cleanly:
+
+**Gemini Desktop (Mac app):** File upload was broken entirely. Switched to the browser version, which accepted the visual context document and screenshots. After two refinement rounds Gemini produced a reasonable result — a glowing green ring on dark green with "120" in the center — but any further iteration broke the session and images stopped rendering.
+
+**Adobe Firefly:** Free, reliable upload and download, but the results didn't match the brief well enough to be usable.
+
+**Back to Gemini (browser):** Re-feeding the exact prompt that produced the best result yielded a solid candidate — the right colors, the right feel. Not pixel-perfect, but directionally correct.
+
+**Icon Kitchen:** For the actual production icon, I used [Icon Kitchen](https://icon.kitchen) to assemble a clean adaptive Android icon from the color values. The result: deep forest green background, medium green concentric ring, "SC" in white as a minimal identifier. Not the final icon, but good enough for internal testing and store listing submission. Icon Kitchen exports the correct `mipmap-*` folder structure for direct drop-in to the Android project.
+
+## First internal build on the Play Store
+
+With the store listing partially filled in and the icon in place, the first release AAB was built in Android Studio (Build → Generate Signed Bundle, release variant, production keystore) and uploaded to the Internal Testing track in Play Console.
+
+Two warnings: no testers configured yet (expected), and no ProGuard deobfuscation file (not required for internal testing). Both ignored. After adding a test account as an internal tester, the build was installable from the Play Store on a second device within minutes.
+
+It runs. There are layout adjustments to make, but the core app is live on a real device via the official distribution channel.
+
 ## Where things stand
 
-Phase 2 is complete. The app has a working freemium gate, billing integration ready for a real product, all the pre-beta code cleanup done, and a privacy policy in place. What remains before beta is not code: app icon, store listing, screenshots, and registering the Google Play Developer account.
+The app is on the Play Store — internal track only, but real. The remaining pre-launch work is:
+
+- Layout fixes identified from the first device test
+- Complete the store listing (description text, feature graphic)
+- Wire up and test the in-app purchase end-to-end
+- Content rating questionnaire in Play Console
+- Decide on open/closed beta before production release
+
+---
+
+**Time spent today:** ~4h
 
 ---
 
