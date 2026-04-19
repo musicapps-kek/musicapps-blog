@@ -14,13 +14,21 @@ German business registration touches tax law, trade law, and social insurance �
 
 The key questions I needed answered:
 
-**Individual vs. Organization Apple account.** An Individual account lets you ship without any business registration, and apps appear under your personal name. An Organization account requires a D-U-N-S number but lets you publish under a brand name. The annual fee is the same either way. For a project with a specific brand (_MusicApps_, _SessionClick_) and a plan to ship multiple apps, the Individual route would mean either shipping under my personal name or restarting the account later — neither appealing.
+### Individual vs. Organization Apple account.
 
-**What does registering a _Gewerbetrieb_ actually cost and oblige you to?** The registration fee varies by municipality but is typically 15–70 EUR. After that: the tax office (_Finanzamt_), the Chamber of Commerce (_IHK_), and any other relevant authorities are automatically notified. Ongoing obligations are an annual income tax return with a simple revenue/expense statement (_EÜR_). Trade tax (_Gewerbesteuer_) doesn't apply below 24,500 EUR annual profit — which covers any realistic scenario for this project. If the project ends, you actively de-register and the obligations end once the final tax return is filed.
+An Individual account lets you ship without any business registration, and apps appear under your personal name. An Organization account requires a D-U-N-S number but lets you publish under a brand name. The annual fee is the same either way. For a project with a specific brand (_MusicApps_, _SessionClick_) and a plan to ship multiple apps, the Individual route would mean either shipping under my personal name or restarting the account later — neither appealing.
 
-**Freelance (_freiberuflich_) vs. commercial (_gewerblich_)?** This distinction matters in Germany. Freelance activities — typically creative or intellectual work — are registered only with the tax office and are exempt from trade tax. Commercial activities go through the trade office and bring IHK membership. Software development is unambiguously commercial. Some of my other occasional activities (musician gigs, PA rental, sound tech) sit in a grey area, but the pragmatic answer is: register everything under one commercial description, keep internal records by category, and the actual tax impact at small scale is minimal.
+### What does registering a _Gewerbetrieb_ actually cost and oblige you to?
 
-**How broad should the activity description be?** A trade registration can be amended but it's cleaner to get it right upfront. The description I filed covers software development, mobile apps (especially for musicians), instrumental accompaniment and sound tech at musical performances, and rental/provision of event technology. Broad enough to cover everything I realistically might invoice under this entity; narrow enough to be coherent.
+The registration fee varies by municipality but is typically 15–70 EUR. After that: the tax office (_Finanzamt_), the Chamber of Commerce (_IHK_), and any other relevant authorities are automatically notified. Ongoing obligations are an annual income tax return with a simple revenue/expense statement (_EÜR_). Trade tax (_Gewerbesteuer_) doesn't apply below 24,500 EUR annual profit — which covers any realistic scenario for this project. If the project ends, you actively de-register and the obligations end once the final tax return is filed.
+
+### Freelance (_freiberuflich_) vs. commercial (_gewerblich_)?
+
+This distinction matters in Germany. Freelance activities — typically creative or intellectual work — are registered only with the tax office and are exempt from trade tax. Commercial activities go through the trade office and bring IHK membership. Software development is unambiguously commercial. Some of my other occasional activities (musician gigs, PA rental, sound tech) sit in a grey area, but the pragmatic answer is: register everything under one commercial description, keep internal records by category, and the actual tax impact at small scale is minimal.
+
+### How broad should the activity description be?
+
+A trade registration can be amended but it's cleaner to get it right upfront. The description I filed covers software development, mobile apps (especially for musicians), instrumental accompaniment and sound tech at musical performances, and rental/provision of event technology. Broad enough to cover everything I realistically might invoice under this entity; narrow enough to be coherent.
 
 **Kleinunternehmerregelung?** Germany has a small-business exemption that lets you invoice without charging VAT (_Umsatzsteuer_) if your annual revenue stays below a threshold. For a project in its first year with no guaranteed revenue, this avoids a significant layer of quarterly reporting. I'll decide this when filling in the tax registration questionnaire via ELSTER — but it's likely the right choice for now.
 
@@ -56,9 +64,31 @@ But the goal isn't one app. The goal is a small portfolio of music-focused utili
 
 The bureaucratic overhead is real but manageable — one registration, one annual tax return, simple bookkeeping. AI assistance makes all of it lighter: Perplexity handled the research; Claude will help with the ELSTER questionnaire; I'll use a simple spreadsheet for the bookkeeping. For a solo developer with limited time, that's the right stack for the admin layer too.
 
+## Keeping the paperwork organised
+
+A registered business generates documents: the registration form, letters from the tax office and the IHK, receipts for every deductible expense, and eventually annual tax returns. For a solo developer who already juggles coding sessions, blog posts, and a day job, letting that pile up is a bad idea.
+
+I set up a folder structure in Obsidian to hold everything from day one:
+
+```
+Gewerbe/
+├── Anmeldung/              registration form and confirmations
+├── Finanzamt/              ELSTER questionnaire, tax returns, EÜR drafts
+├── IHK/                    Chamber of Commerce correspondence
+├── D-U-N-S/                application and confirmation
+├── Belege/2026/
+│   ├── Apps-Software/      receipts: domains, subscriptions, store fees
+│   └── Musik-PA-Tontechnik/ receipts: equipment, travel to gigs
+└── Einnahmen-Ausgaben/2026/ running income/expense table (EÜR prep)
+```
+
+The income/expense table is already started with the registration fee as the first entry. The naming convention for receipts is `YY-MM-DD_description_amount.pdf` — simple enough to sort chronologically without any additional tooling.
+
+The key insight from the Perplexity research: for German tax purposes, the **invoice** (_Rechnung_) is the relevant document for deducting a business expense, not the payment receipt (Which might also be relevant, but the invoice is primary). So for subscriptions like Claude Code or domain hosting, it's the monthly invoice PDF that goes into `Belege/`. For one-time fees like the Gewerbeanmeldung, it's the confirmation email PDF from the portal. For the D-U-N-S application, it's the confirmation email from Dun & Bradstreet. But I will also keep the payment receipts for reference. Keeping those organised from day one means when tax time comes, everything is in one place and easy to find.
+
 ---
 
-**Time spent today:** ~2h (research + registration)
+**Time spent today:** ~3h (research + registration + infrastructure setup)
 
 ---
 

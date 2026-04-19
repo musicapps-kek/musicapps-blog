@@ -23,8 +23,8 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-04-16 | Editing, swiping, playlists, and a very satisfying number        | 2h 25min  |
 | 2026-04-17 | Preparing for iOS by testing Android                             | 1h 30min  |
 | 2026-04-18 | Persistence refactor, export/import, UI polish, App.kt split     | 2h 00min  |
-| 2026-04-18 | Gewerbeanmeldung — research and online registration              | 2h 00min  |
-| **Total**  |                                                                  | 22h 09min |
+| 2026-04-18 | Gewerbeanmeldung — research and online registration              | 3h 00min  |
+| **Total**  |                                                                  | 23h 09min |
 
 ## One-Time Costs
 
@@ -34,7 +34,7 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | sessionclick.com domain setup fee  | €1.99      |
 | musicapps.eu domain setup fee      | €1.99      |
 | Perplexity Pro (1 month, research) | €22.00     |
-| Gewerbeanmeldung (Gewerbeamt Bünde) | €26.00    |
+| Gewerbeanmeldung                   | €26.00     |
 | **Total one-time**                 | **€53.97** |
 
 ## Monthly Costs
