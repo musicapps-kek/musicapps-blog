@@ -1,5 +1,5 @@
 ---
-title: "Day 11: Persistence refactor, export/import, UI polish, and splitting App.kt"
+title: "Day 11(a): Persistence refactor, export/import, UI polish, and splitting App.kt"
 date: 2026-04-18
 draft: false
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Day 12: Registering a business for a side project"
+title: "Day 11(b): Registering a business for a side project"
 date: 2026-04-18
 draft: false
 tags: ["business", "apple-developer", "indie-dev", "germany", "admin"]

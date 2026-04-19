@@ -1,5 +1,5 @@
 ---
-title: "Day 13: Freemium gate, billing, Play Store registration, and first internal build"
+title: "Day 12: Freemium gate, billing, Play Store registration, and first internal build"
 date: 2026-04-19
 draft: false
 tags:
