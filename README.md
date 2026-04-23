@@ -68,3 +68,5 @@ public/         # Generated output (do not edit manually)
 
 Karl-Ernst Kiel — <karl@musicapps.eu>  
 GitHub: <https://github.com/musicapps-kek>
+
+---
