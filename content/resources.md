@@ -25,7 +25,8 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-04-19 | Google play, app icon, publish test version                      | ~4h         |
 | 2026-04-20 | UI polish, Play Store prep, and production billing switch        | ~3h         |
 | 2026-04-21 | Play Store submission complete                                   | 1h 00min    |
-| **Total**  |                                                                  | 32h 54min   |
+| 2026-04-23 | Landing pages, custom domains, and the quiet work of plumbing    | 3h 00min    |
+| **Total**  |                                                                  | 35h 54min   |
 
 ## One-Time Costs
 
