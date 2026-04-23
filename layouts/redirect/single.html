@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }} — moved</title>
+  <link rel="canonical" href="{{ .Params.redirect_to }}">
+  <meta http-equiv="refresh" content="0; url={{ .Params.redirect_to }}">
+  <meta name="robots" content="noindex">
+  <script>window.location.replace({{ .Params.redirect_to | jsonify | safeJS }});</script>
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; max-width: 40em; margin: 4em auto; padding: 0 1em; line-height: 1.5; }
+    a { color: #4CAF50; }
+  </style>
+</head>
+<body>
+  <h1>This page has moved</h1>
+  <p>The SessionClick privacy policy now lives at
+    <a href="{{ .Params.redirect_to }}">{{ .Params.redirect_to }}</a>.</p>
+  <p>You should be redirected automatically. If not, follow the link above.</p>
+</body>
+</html>
