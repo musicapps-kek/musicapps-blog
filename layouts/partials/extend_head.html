@@ -4,7 +4,6 @@
 {{- /* Mermaid diagram support */ -}}
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
-  mermaid.initialize({ startOnLoad: true, theme: 'default' });
-  mermaid.contentLoaded();
+  mermaid.initialize({ startOnLoad: true, theme: 'default', securityLevel: 'loose' });
 </script>
 {{- /* Head custom content area end */ -}}

@@ -1,0 +1,7 @@
+{{- if eq .Type "mermaid" -}}
+<pre class="mermaid">
+{{- .Inner -}}
+</pre>
+{{- else -}}
+<pre><code class="language-{{ .Type }}"{{ with .Attributes.title }} title="{{ . }}"{{ end }}>{{- .Inner -}}</code></pre>
+{{- end -}}
