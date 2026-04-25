@@ -8,25 +8,26 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 
 ## Time Invested
 
-| Date       | Session                                                          | Duration    |
-| ---------- | ---------------------------------------------------------------- | ----------- |
-| 2026-04-04 | Why I'm building a metronome app                                 | not tracked |
-| 2026-04-08 | Picking a name, architecture, and first commit                   | 2h 15min    |
-| 2026-04-09 | Setup KB and describe infrastructure                             | 1h 12min    |
-| 2026-04-10 | Android App — first steps                                        | 1h 51min    |
-| 2026-04-11 | UI design, sync behavior, and foreground service                 | 4h 21min    |
-| 2026-04-12 | Design with Stitch, Time and Cost overview                       | 1h 30min    |
-| 2026-04-13 | Building the main screen — controls, playlist, responsive layout | ~1h 45min   |
-| 2026-04-15 | KB articles, swipe and drag-and-drop playlist items              | ~2h 30min   |
-| 2026-04-16 | Editing, swiping, playlists, and a very satisfying number        | ~3h         |
-| 2026-04-17 | Preparing for iOS by testing Android                             | ~1h 30min   |
-| 2026-04-18 | Persistence refactor, export/import, UI polish, App.kt split     | ~2h         |
-| 2026-04-18 | Gewerbeanmeldung — research and online registration              | ~3h         |
-| 2026-04-19 | Google play, app icon, publish test version                      | ~4h         |
-| 2026-04-20 | UI polish, Play Store prep, and production billing switch        | ~3h         |
-| 2026-04-21 | Play Store submission complete                                   | 1h 00min    |
-| 2026-04-23 | Landing pages, custom domains, and the quiet work of plumbing    | 3h 00min    |
-| **Total**  |                                                                  | 35h 54min   |
+| Date       | Session                                                                | Duration    |
+| ---------- | ---------------------------------------------------------------------- | ----------- |
+| 2026-04-04 | Why I'm building a metronome app                                       | not tracked |
+| 2026-04-08 | Picking a name, architecture, and first commit                         | 2h 15min    |
+| 2026-04-09 | Setup KB and describe infrastructure                                   | 1h 12min    |
+| 2026-04-10 | Android App — first steps                                              | 1h 51min    |
+| 2026-04-11 | UI design, sync behavior, and foreground service                       | 4h 21min    |
+| 2026-04-12 | Design with Stitch, Time and Cost overview                             | 1h 30min    |
+| 2026-04-13 | Building the main screen — controls, playlist, responsive layout       | ~1h 45min   |
+| 2026-04-15 | KB articles, swipe and drag-and-drop playlist items                    | ~2h 30min   |
+| 2026-04-16 | Editing, swiping, playlists, and a very satisfying number              | ~3h         |
+| 2026-04-17 | Preparing for iOS by testing Android                                   | ~1h 30min   |
+| 2026-04-18 | Persistence refactor, export/import, UI polish, App.kt split           | ~2h         |
+| 2026-04-18 | Gewerbeanmeldung — research and online registration                    | ~3h         |
+| 2026-04-19 | Google play, app icon, publish test version                            | ~4h         |
+| 2026-04-20 | UI polish, Play Store prep, and production billing switch              | ~3h         |
+| 2026-04-21 | Play Store submission complete                                         | ~1h         |
+| 2026-04-23 | Landing pages, custom domains, and the quiet work of plumbing          | ~3h         |
+| 2026-04-24 | Recruiting beta testers: Google Group, landing page block, forum posts | ~2h         |
+| **Total**  |                                                                        | ~38h        |
 
 ## One-Time Costs
 
