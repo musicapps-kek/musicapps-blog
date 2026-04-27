@@ -27,7 +27,8 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-04-21 | Play Store submission complete                                         | ~1h         |
 | 2026-04-23 | Landing pages, custom domains, and the quiet work of plumbing          | ~3h         |
 | 2026-04-24 | Recruiting beta testers: Google Group, landing page block, forum posts | ~2h         |
-| **Total**  |                                                                        | ~38h        |
+| 2026-04-25 | Misc. bug fixes and additional improvements from testers               | ~2h         |
+| **Total**  |                                                                        | ~40h        |
 
 ## One-Time Costs
 
