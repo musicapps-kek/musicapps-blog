@@ -28,7 +28,8 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-04-23 | Landing pages, custom domains, and the quiet work of plumbing          | ~3h         |
 | 2026-04-25 | Recruiting beta testers: Google Group, landing page block, forum posts | ~2h         |
 | 2026-04-27 | Misc. bug fixes and additional improvements from testers               | ~2h         |
-| **Total**  |                                                                        | ~40h        |
+| 2026-05-01 | Selectable click sounds and haptic feedback on the tempo circle        | ~2h         |
+| **Total**  |                                                                        | ~42h        |
 
 ## One-Time Costs
 
