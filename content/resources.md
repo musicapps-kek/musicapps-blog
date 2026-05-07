@@ -29,7 +29,9 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-04-25 | Recruiting beta testers: Google Group, landing page block, forum posts | ~2h         |
 | 2026-04-27 | Misc. bug fixes and additional improvements from testers               | ~2h         |
 | 2026-05-01 | Selectable click sounds and haptic feedback on the tempo circle        | ~2h         |
-| **Total**  |                                                                        | ~42h        |
+| 2026-05-06 | Researching Bluetooth foot pedal support, writing Gemini prompt        | ~15 min     |
+| 2026-05-07 | Implementing Bluetooth foot pedal support, testing with real hardware  | ~45 min     |
+| **Total**  |                                                                        | ~43h        |
 
 ## One-Time Costs
 
