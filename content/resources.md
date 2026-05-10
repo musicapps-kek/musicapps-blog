@@ -8,42 +8,45 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 
 ## Time Invested
 
-| Date       | Session                                                                | Duration    |
-| ---------- | ---------------------------------------------------------------------- | ----------- |
-| 2026-04-04 | Why I'm building a metronome app                                       | not tracked |
-| 2026-04-08 | Picking a name, architecture, and first commit                         | 2h 15min    |
-| 2026-04-09 | Setup KB and describe infrastructure                                   | 1h 12min    |
-| 2026-04-10 | Android App — first steps                                              | 1h 51min    |
-| 2026-04-11 | UI design, sync behavior, and foreground service                       | 4h 21min    |
-| 2026-04-12 | Design with Stitch, Time and Cost overview                             | 1h 30min    |
-| 2026-04-13 | Building the main screen — controls, playlist, responsive layout       | ~1h 45min   |
-| 2026-04-15 | KB articles, swipe and drag-and-drop playlist items                    | ~2h 30min   |
-| 2026-04-16 | Editing, swiping, playlists, and a very satisfying number              | ~3h         |
-| 2026-04-17 | Preparing for iOS by testing Android                                   | ~1h 30min   |
-| 2026-04-18 | Persistence refactor, export/import, UI polish, App.kt split           | ~2h         |
-| 2026-04-18 | Gewerbeanmeldung — research and online registration                    | ~3h         |
-| 2026-04-19 | Google play, app icon, publish test version                            | ~4h         |
-| 2026-04-20 | UI polish, Play Store prep, and production billing switch              | ~3h         |
-| 2026-04-21 | Play Store submission complete                                         | ~1h         |
-| 2026-04-23 | Landing pages, custom domains, and the quiet work of plumbing          | ~3h         |
-| 2026-04-25 | Recruiting beta testers: Google Group, landing page block, forum posts | ~2h         |
-| 2026-04-27 | Misc. bug fixes and additional improvements from testers               | ~2h         |
-| 2026-05-01 | Selectable click sounds and haptic feedback on the tempo circle        | ~2h         |
-| 2026-05-06 | Researching Bluetooth foot pedal support, writing Gemini prompt        | ~15 min     |
-| 2026-05-07 | Implementing Bluetooth foot pedal support, testing with real hardware  | ~45 min     |
-| **Total**  |                                                                        | ~43h        |
+| Date       | Session                                                                 | Duration    |
+| ---------- | ----------------------------------------------------------------------- | ----------- |
+| 2026-04-04 | Why I'm building a metronome app                                        | not tracked |
+| 2026-04-08 | Picking a name, architecture, and first commit                          | 2h 15min    |
+| 2026-04-09 | Setup KB and describe infrastructure                                    | 1h 12min    |
+| 2026-04-10 | Android App — first steps                                               | 1h 51min    |
+| 2026-04-11 | UI design, sync behavior, and foreground service                        | 4h 21min    |
+| 2026-04-12 | Design with Stitch, Time and Cost overview                              | 1h 30min    |
+| 2026-04-13 | Building the main screen — controls, playlist, responsive layout        | ~1h 45min   |
+| 2026-04-15 | KB articles, swipe and drag-and-drop playlist items                     | ~2h 30min   |
+| 2026-04-16 | Editing, swiping, playlists, and a very satisfying number               | ~3h         |
+| 2026-04-17 | Preparing for iOS by testing Android                                    | ~1h 30min   |
+| 2026-04-18 | Persistence refactor, export/import, UI polish, App.kt split            | ~2h         |
+| 2026-04-18 | Gewerbeanmeldung — research and online registration                     | ~3h         |
+| 2026-04-19 | Google play, app icon, publish test version                             | ~4h         |
+| 2026-04-20 | UI polish, Play Store prep, and production billing switch               | ~3h         |
+| 2026-04-21 | Play Store submission complete                                          | ~1h         |
+| 2026-04-23 | Landing pages, custom domains, and the quiet work of plumbing           | ~3h         |
+| 2026-04-25 | Recruiting beta testers: Google Group, landing page block, forum posts  | ~2h         |
+| 2026-04-27 | Misc. bug fixes and additional improvements from testers                | ~2h         |
+| 2026-05-01 | Selectable click sounds and haptic feedback on the tempo circle         | ~2h         |
+| 2026-05-06 | Researching Bluetooth foot pedal support                                | ~15 min     |
+| 2026-05-07 | Implementing Bluetooth foot pedal support, testing with real hardware   | ~45 min     |
+| 2026-05-09 | Researching and testing AI video generation for a Play Store demo video | ~2h         |
+| 2026-05-10 | Shooting and editing Play Store demo video with two phones.             | ~3h         |
+| **Total**  |                                                                         | ~48h        |
 
 ## One-Time Costs
 
-| Item                                 | Cost       |
-| ------------------------------------ | ---------- |
-| sessionclick.de domain setup fee     | €1.99      |
-| sessionclick.com domain setup fee    | €1.99      |
-| musicapps.eu domain setup fee        | €1.99      |
-| Perplexity Pro (1 month, research)   | €22.00     |
-| Gewerbeanmeldung                     | €26.00     |
-| Google Play Console (one-time setup) | €25.00     |
-| **Total one-time**                   | **€78.97** |
+| Item                                  | Cost       |
+| ------------------------------------- | ---------- |
+| sessionclick.de domain setup fee      | €1.99      |
+| sessionclick.com domain setup fee     | €1.99      |
+| musicapps.eu domain setup fee         | €1.99      |
+| Perplexity Pro (1 month, research)    | €22.00     |
+| Gewerbeanmeldung                      | €26.00     |
+| Google Play Console (one-time setup)  | €25.00     |
+| Suno (1 month, demo video soundtrack) | €10.00     |
+| **Total one-time**                    | **€88.97** |
 
 ## Monthly Costs
 
@@ -81,6 +84,7 @@ _Budget ceiling: €40/month. Current monthly spend: €25.29 — within budget.
 | [Google Stitch](https://stitch.withgoogle.com)                         | UI design exploration and mockups                                                          | Free                              |
 | [Perplexity](https://www.perplexity.ai)                                | Web research (market analysis, legal/tax questions)                                        | Pro subscription (only one month) |
 | [GitHub Copilot](https://github.com/features/copilot)                  | Code and text completion in VS Code                                                        | Free tier                         |
+| [Suno](https://suno.com)                                               | Instrumental soundtrack for the Play Store demo video                                      | €10 (one month, see above)        |
 
 ### Notes & Project Management
 
@@ -96,6 +100,12 @@ _Budget ceiling: €40/month. Current monthly spend: €25.29 — within budget.
 | [SnagIt](https://www.techsmith.com/screen-capture.html)  | Screenshots and mockup captures                        | One-time purchase (pre-project) |
 | [Affinity Designer](https://affinity.serif.com/designer) | App icon design, feature graphic, store visuals        | One-time purchase (pre-project) |
 | [icon.kitchen](https://icon.kitchen)                     | Placeholder app icon generation (adaptive icon sizing) | Free                            |
+
+### Audio & Video
+
+| Tool                                                                        | Purpose                                             | Cost |
+| --------------------------------------------------------------------------- | --------------------------------------------------- | ---- |
+| [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | Editing the Play Store demo video (cut, audio sync) | Free |
 
 ### Hosting & Infrastructure
 
