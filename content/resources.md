@@ -33,7 +33,8 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-05-07 | Implementing Bluetooth foot pedal support, testing with real hardware   | ~45 min     |
 | 2026-05-09 | Researching and testing AI video generation for a Play Store demo video | ~2h         |
 | 2026-05-10 | Shooting and editing Play Store demo video with two phones.             | ~3h         |
-| **Total**  |                                                                         | ~48h        |
+| 2026-05-12 | Refreshing the landing page                                             | ~45 min     |
+| **Total**  |                                                                         | ~48h 45min  |
 
 ## One-Time Costs
 
