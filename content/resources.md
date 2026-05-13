@@ -34,7 +34,8 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-05-09 | Researching and testing AI video generation for a Play Store demo video | ~2h         |
 | 2026-05-10 | Shooting and editing Play Store demo video with two phones.             | ~3h         |
 | 2026-05-12 | Refreshing the landing page                                             | ~45 min     |
-| **Total**  |                                                                         | ~48h 45min  |
+| 2026-05-13 | Creating feature-framed Play Store screenshots                          | ~1h 30min   |
+| **Total**  |                                                                         | ~50h        |
 
 ## One-Time Costs
 
