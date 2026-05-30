@@ -37,7 +37,8 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-05-13 | Creating feature-framed Play Store screenshots                          | ~1h 30min   |
 | 2026-05-14 | iOS App setup and coding                                                | ~6h         |
 | 2026-05-15 | Apple Developer enrollment and D-U-N-S process                          | ~45 min     |
-| **Total**  |                                                                         | ~56h 45 min |
+| 2026-05-30 | Apple Developer follow-up                                               | ~1h         |
+| **Total**  |                                                                         | ~57h 45 min |
 
 ## One-Time Costs
 
