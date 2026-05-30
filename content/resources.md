@@ -37,8 +37,8 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-05-13 | Creating feature-framed Play Store screenshots                          | ~1h 30min   |
 | 2026-05-14 | iOS App setup and coding                                                | ~6h         |
 | 2026-05-15 | Apple Developer enrollment and D-U-N-S process                          | ~45 min     |
-| 2026-05-30 | Apple Developer follow-up                                               | ~1h         |
-| **Total**  |                                                                         | ~57h 45 min |
+| 2026-05-30 | Apple Developer follow-up                                               | ~2h         |
+| **Total**  |                                                                         | ~59h 30 min |
 
 ## One-Time Costs
 
@@ -55,15 +55,16 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 
 ## Monthly Costs
 
-| Item                                            | Cost/month |
-| ----------------------------------------------- | ---------- |
-| sessionclick.de domain hosting                  | €0.49      |
-| sessionclick.com domain hosting                 | €1.99      |
-| musicapps.eu domain hosting                     | €1.39      |
-| Claude Code subscription (incl. 19% German VAT) | €21.42     |
-| **Total monthly**                               | **€25.29** |
+| Item                                            | Cost/month  |
+| ----------------------------------------------- | ----------- |
+| sessionclick.de domain hosting                  | €0.49       |
+| sessionclick.com domain hosting                 | €1.99       |
+| musicapps.eu domain hosting                     | €1.39       |
+| Claude Code subscription (incl. 19% German VAT) | €21.42      |
+| Apple Developer Program (annual fee €99)        | €8.25/month |
+| **Total monthly**                               | **€31.06**  |
 
-_Budget ceiling: €40/month. Current monthly spend: €25.29 — within budget._
+_Budget ceiling: €40/month. Current monthly spend: €31.06 — within budget._
 
 ## Tools
 
