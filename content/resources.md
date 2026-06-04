@@ -38,7 +38,8 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-05-14 | iOS App setup and coding                                                | ~6h         |
 | 2026-05-15 | Apple Developer enrollment and D-U-N-S process                          | ~45 min     |
 | 2026-05-30 | Apple Developer follow-up                                               | ~2h         |
-| **Total**  |                                                                         | ~59h 30 min |
+| 2026-06-04 | Raised freemium limits, bugfix, new Android version.                    | ~1h         |
+| **Total**  |                                                                         | ~60h 30 min |
 
 ## One-Time Costs
 
