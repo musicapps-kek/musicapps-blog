@@ -6,4 +6,26 @@
 <script>
   mermaid.initialize({ startOnLoad: true, theme: 'default', securityLevel: 'loose' });
 </script>
+{{- /* Resources page: polish the first table (Time Invested). Keep the short
+       Date and Duration columns on one line so dates like 2026-04-04 don't wrap;
+       let the Session column flex. Right-align durations with tabular figures so
+       they line up and the Total reads like a ledger. Scoped to the first table
+       so the wider Tools tables (long Cost text) are untouched. */ -}}
+{{- if eq .RelPermalink "/resources/" }}
+<style>
+  /* Date (first) and Duration (last) columns: no wrapping, aligned digits. */
+  .post-content table:first-of-type td:first-child,
+  .post-content table:first-of-type th:first-child,
+  .post-content table:first-of-type td:last-child,
+  .post-content table:first-of-type th:last-child {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  /* Duration column: right-aligned so values and the Total line up. */
+  .post-content table:first-of-type td:last-child,
+  .post-content table:first-of-type th:last-child {
+    text-align: right;
+  }
+</style>
+{{- end }}
 {{- /* Head custom content area end */ -}}

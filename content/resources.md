@@ -41,8 +41,9 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-06-04 | Raised freemium limits, bugfix, new Android version.                    | ~1h         |
 | 2026-06-04 | iOS Layout                                                              | ~2h         |
 | 2026-06-05 | iOS implementation and testing                                          | ~3h         |
-| 2026-05-11 | iOS bug fixes                                                           | ~2h 30min   |
-| **Total**  |                                                                         | ~68h        |
+| 2026-06-11 | iOS bug fixes                                                           | ~2h 30min   |
+| 2026-06-12 | iOS bug fixes , demo video for review process                           | ~1h         |
+| **Total**  |                                                                         | ~69h        |
 
 ## One-Time Costs
 
