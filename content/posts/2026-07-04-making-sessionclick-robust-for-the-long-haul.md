@@ -111,3 +111,9 @@ Then — and only then — the feature list.
 Working through this phase with Claude Code has sharpened one belief: an AI agent is a fast junior developer with weak judgment at the edges. The answer isn't less AI — it's the same things that would make a human team safe. Written context that's actually true. Decisions with their _why_ attached. Tests that pin what must never change. A gate that keeps main green. And a status file that answers "where was I?" in one screen.
 
 The docs lied to me within a month of shipping. The code never did. The whole point of this phase is to close that gap — and keep it closed automatically.
+
+---
+
+**Time spent today:** ~2.5h
+
+---

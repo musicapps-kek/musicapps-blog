@@ -8,42 +8,45 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 
 ## Time Invested
 
-| Date       | Session                                                                 | Duration    |
-| ---------- | ----------------------------------------------------------------------- | ----------- |
-| 2026-04-04 | Why I'm building a metronome app                                        | not tracked |
-| 2026-04-08 | Picking a name, architecture, and first commit                          | 2h 15min    |
-| 2026-04-09 | Setup KB and describe infrastructure                                    | 1h 12min    |
-| 2026-04-10 | Android App — first steps                                               | 1h 51min    |
-| 2026-04-11 | UI design, sync behavior, and foreground service                        | 4h 21min    |
-| 2026-04-12 | Design with Stitch, Time and Cost overview                              | 1h 30min    |
-| 2026-04-13 | Building the main screen — controls, playlist, responsive layout        | ~1h 45min   |
-| 2026-04-15 | KB articles, swipe and drag-and-drop playlist items                     | ~2h 30min   |
-| 2026-04-16 | Editing, swiping, playlists, and a very satisfying number               | ~3h         |
-| 2026-04-17 | Preparing for iOS by testing Android                                    | ~1h 30min   |
-| 2026-04-18 | Persistence refactor, export/import, UI polish, App.kt split            | ~2h         |
-| 2026-04-18 | Gewerbeanmeldung — research and online registration                     | ~3h         |
-| 2026-04-19 | Google play, app icon, publish test version                             | ~4h         |
-| 2026-04-20 | UI polish, Play Store prep, and production billing switch               | ~3h         |
-| 2026-04-21 | Play Store submission complete                                          | ~1h         |
-| 2026-04-23 | Landing pages, custom domains, and the quiet work of plumbing           | ~3h         |
-| 2026-04-25 | Recruiting beta testers: Google Group, landing page block, forum posts  | ~2h         |
-| 2026-04-27 | Misc. bug fixes and additional improvements from testers                | ~2h         |
-| 2026-05-01 | Selectable click sounds and haptic feedback on the tempo circle         | ~2h         |
-| 2026-05-06 | Researching Bluetooth foot pedal support                                | ~15 min     |
-| 2026-05-07 | Implementing Bluetooth foot pedal support, testing with real hardware   | ~45 min     |
-| 2026-05-09 | Researching and testing AI video generation for a Play Store demo video | ~2h         |
-| 2026-05-10 | Shooting and editing Play Store demo video with two phones.             | ~3h         |
-| 2026-05-12 | Refreshing the landing page                                             | ~45 min     |
-| 2026-05-13 | Creating feature-framed Play Store screenshots                          | ~1h 30min   |
-| 2026-05-14 | iOS App setup and coding                                                | ~6h         |
-| 2026-05-15 | Apple Developer enrollment and D-U-N-S process                          | ~45 min     |
-| 2026-05-30 | Apple Developer follow-up                                               | ~2h         |
-| 2026-06-04 | Raised freemium limits, bugfix, new Android version.                    | ~1h         |
-| 2026-06-04 | iOS Layout                                                              | ~2h         |
-| 2026-06-05 | iOS implementation and testing                                          | ~3h         |
-| 2026-06-11 | iOS bug fixes                                                           | ~2h 30min   |
-| 2026-06-12 | iOS bug fixes , demo video for review process                           | ~1h         |
-| **Total**  |                                                                         | ~69h        |
+| Date       | Session                                                                   | Duration    |
+| ---------- | ------------------------------------------------------------------------- | ----------- |
+| 2026-04-04 | Why I'm building a metronome app                                          | not tracked |
+| 2026-04-08 | Picking a name, architecture, and first commit                            | 2h 15min    |
+| 2026-04-09 | Setup KB and describe infrastructure                                      | 1h 12min    |
+| 2026-04-10 | Android App — first steps                                                 | 1h 51min    |
+| 2026-04-11 | UI design, sync behavior, and foreground service                          | 4h 21min    |
+| 2026-04-12 | Design with Stitch, Time and Cost overview                                | 1h 30min    |
+| 2026-04-13 | Building the main screen — controls, playlist, responsive layout          | ~1h 45min   |
+| 2026-04-15 | KB articles, swipe and drag-and-drop playlist items                       | ~2h 30min   |
+| 2026-04-16 | Editing, swiping, playlists, and a very satisfying number                 | ~3h         |
+| 2026-04-17 | Preparing for iOS by testing Android                                      | ~1h 30min   |
+| 2026-04-18 | Persistence refactor, export/import, UI polish, App.kt split              | ~2h         |
+| 2026-04-18 | Gewerbeanmeldung — research and online registration                       | ~3h         |
+| 2026-04-19 | Google play, app icon, publish test version                               | ~4h         |
+| 2026-04-20 | UI polish, Play Store prep, and production billing switch                 | ~3h         |
+| 2026-04-21 | Play Store submission complete                                            | ~1h         |
+| 2026-04-23 | Landing pages, custom domains, and the quiet work of plumbing             | ~3h         |
+| 2026-04-25 | Recruiting beta testers: Google Group, landing page block, forum posts    | ~2h         |
+| 2026-04-27 | Misc. bug fixes and additional improvements from testers                  | ~2h         |
+| 2026-05-01 | Selectable click sounds and haptic feedback on the tempo circle           | ~2h         |
+| 2026-05-06 | Researching Bluetooth foot pedal support                                  | ~15 min     |
+| 2026-05-07 | Implementing Bluetooth foot pedal support, testing with real hardware     | ~45 min     |
+| 2026-05-09 | Researching and testing AI video generation for a Play Store demo video   | ~2h         |
+| 2026-05-10 | Shooting and editing Play Store demo video with two phones.               | ~3h         |
+| 2026-05-12 | Refreshing the landing page                                               | ~45 min     |
+| 2026-05-13 | Creating feature-framed Play Store screenshots                            | ~1h 30min   |
+| 2026-05-14 | iOS App setup and coding                                                  | ~6h         |
+| 2026-05-15 | Apple Developer enrollment and D-U-N-S process                            | ~45 min     |
+| 2026-05-30 | Apple Developer follow-up                                                 | ~2h         |
+| 2026-06-04 | Raised freemium limits, bugfix, new Android version.                      | ~1h         |
+| 2026-06-04 | iOS Layout                                                                | ~2h         |
+| 2026-06-05 | iOS implementation and testing                                            | ~3h         |
+| 2026-06-11 | iOS bug fixes                                                             | ~2h 30min   |
+| 2026-06-12 | iOS bug fixes , demo video for review process                             | ~1h         |
+| 2026-06-13 | On the App Store — and a landing page that finally looks the part         | ~2h         |
+| 2026-07-04 | Shipping was the easy part — making SessionClick robust for the long haul | ~3h         |
+| 2026-07-05 | One-command releases, real numbers, and a finished safety net             | ~3h 30min   |
+| **Total**  |                                                                           | ~74h 30min  |
 
 ## One-Time Costs
 

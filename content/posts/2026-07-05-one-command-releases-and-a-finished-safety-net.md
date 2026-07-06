@@ -1,7 +1,7 @@
 ---
 title: "One-command releases, real numbers, and a finished safety net"
-date: 2026-07-06
-draft: true
+date: 2026-07-05
+draft: false
 tags:
   [
     "process",
@@ -59,7 +59,7 @@ later, versionCode 13 landed on the internal track — now with the R8 `mapping.
 uploaded alongside, so Play Console crash reports arrive deobfuscated.
 
 First `ios_beta` run: **failed better.** Apple rejected the upload with error 90186:
-*"The train version '1.0.1' is closed for new build submissions."* Once a version is
+_"The train version '1.0.1' is closed for new build submissions."_ Once a version is
 approved on the App Store, that version string is burned — no new TestFlight builds
 under it, ever. Google Play happily takes new versionCodes under an unchanged
 versionName; Apple does not. So the iOS release checklist now has a step zero: bump
@@ -83,7 +83,7 @@ The reporting decision from last post — store APIs only, no analytics SDK — 
 a small Python script: one command, one markdown report per month, both platforms
 side by side. Downloads, premium unlocks, proceeds, crashes, ratings.
 
-Reality adjusted the plan here too. The Play *Developer Reporting API*, which the
+Reality adjusted the plan here too. The Play _Developer Reporting API_, which the
 plan confidently named as the data source, turns out to expose only vitals (crash
 rates). The actual installs and ratings live in monthly CSV exports in a Google
 Cloud Storage bucket — encoded in UTF-16, because Google apparently exports them
@@ -101,7 +101,7 @@ arrive monthly without me clicking through two dashboards.
 ## Smoke tests: four on Android, seven on iOS
 
 The last gap in the safety net was UI-level: nothing verified that the app actually
-*launches*. Now both platforms have smoke tests — deliberately few, pinning the
+_launches_. Now both platforms have smoke tests — deliberately few, pinning the
 critical path only: launch, play/stop (through the real audio engine and foreground
 service), add-a-song including the JSON hitting disk, and the freemium gate.
 
@@ -115,7 +115,7 @@ with `NoSuchMethodException: InputManager.getInstance` — Compose's UI-test lib
 bundles an Espresso old enough to use reflection that newer Android versions
 removed. Pinning the current Espresso on the test classpath fixed all four at once.
 On iOS, the new test targets inherited `PRODUCT_NAME=SessionClick` from the
-project-level xcconfig — every target claimed to *be* the app, and the build failed
+project-level xcconfig — every target claimed to _be_ the app, and the build failed
 on colliding Swift modules until the test targets got their own names. (The test
 targets themselves were added programmatically with the `xcodeproj` Ruby gem rather
 than hand-editing 500 lines of pbxproj — the gem ships inside fastlane, which was
@@ -149,3 +149,9 @@ has gigs to remember.
 
 Next post: an actual feature. The backlog has three specs with their open questions
 answered, and a two-day-old safety net that's itching to catch something.
+
+---
+
+**Time spent today:** ~2.5h
+
+---
