@@ -46,7 +46,9 @@ An up-to-date overview of time invested and costs for the SessionClick project. 
 | 2026-06-13 | On the App Store — and a landing page that finally looks the part         | ~2h         |
 | 2026-07-04 | Shipping was the easy part — making SessionClick robust for the long haul | ~3h         |
 | 2026-07-05 | One-command releases, real numbers, and a finished safety net             | ~3h 30min   |
-| **Total**  |                                                                           | ~74h 30min  |
+| 2026-07-07 | Double-time, triple-time: the first feature through the new safety net    | ~3h         |
+| 2026-07-07 | Auto-stop: a metronome that counts you in, then bows out                  | ~2h 30min   |
+| **Total**  |                                                                           | ~80h        |
 
 ## One-Time Costs
 
@@ -91,14 +93,14 @@ _Budget ceiling: €40/month. Current monthly spend: €31.06 — within budget.
 
 ### AI Tools
 
-| Tool                                                                   | Purpose                                                                                    | Cost                              |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |
-| [Claude Code](https://claude.ai/code)                                  | Architecture, planning, code review, blog writing (using Sonnet 4.6 medium for most tasks) | €21.42/month (see above)          |
-| [Gemini Code Assist](https://developers.google.com/gemini/code-assist) | In-IDE code generation inside Android Studio                                               | Free tier                         |
-| [Google Stitch](https://stitch.withgoogle.com)                         | UI design exploration and mockups                                                          | Free                              |
-| [Perplexity](https://www.perplexity.ai)                                | Web research (market analysis, legal/tax questions)                                        | Pro subscription (only one month) |
-| [GitHub Copilot](https://github.com/features/copilot)                  | Code and text completion in VS Code                                                        | Free tier                         |
-| [Suno](https://suno.com)                                               | Instrumental soundtrack for the Play Store demo video                                      | €10 (one month, see above)        |
+| Tool                                                                   | Purpose                                                                                                                                                            | Cost                              |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- |
+| [Claude Code](https://claude.ai/code)                                  | Architecture, planning, code review, blog writing (Sonnet 4.6 medium for most tasks; Fable 5 on July 4–7, Opus 4.8 on July 7, continue with Sonnet 5 after July 7) | €21.42/month (see above)          |
+| [Gemini Code Assist](https://developers.google.com/gemini/code-assist) | In-IDE code generation inside Android Studio                                                                                                                       | Free tier                         |
+| [Google Stitch](https://stitch.withgoogle.com)                         | UI design exploration and mockups                                                                                                                                  | Free                              |
+| [Perplexity](https://www.perplexity.ai)                                | Web research (market analysis, legal/tax questions)                                                                                                                | Pro subscription (only one month) |
+| [GitHub Copilot](https://github.com/features/copilot)                  | Code and text completion in VS Code                                                                                                                                | Free tier                         |
+| [Suno](https://suno.com)                                               | Instrumental soundtrack for the Play Store demo video                                                                                                              | €10 (one month, see above)        |
 
 ### Notes & Project Management
 
